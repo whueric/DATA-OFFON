@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>															
+<resources>															
+<string name="app_name">WiFi/Data-Auto Aus|Ein</string>															
+<string name="main_content">Der einfachste Weg, um den Datenverbrauch zu senken und die Akku-Laufzeit zu verlängeren!\n\nDisplay Aus, WiFi/Daten Aus\nDisplay An, WiFi/Daten AN\n\nKein Ein- u. Ausschalten von Hand nötig!\n</string>															
+<string name="title_activity_screen_observer">AusEinAktivität</string>															
+<string name="contentDesc">WiFi/Daten</string>															
+<string name="action_settings">Einstellungen</string>															
+<string name="notification_content">App Einstellungen</string>															
+<string name="enable_service">Service Einschalten</string>															
+<string name="enable_notification">Benachrichtigung</string>															
+<string name="turn_on_wifi">Eingeschaltet WiFi...</string>															
+<string name="turn_off_wifi">Ausgeschaltet WiFi...</string>															
+<string name="turn_on_data">Eingeschalten Mobile Daten...</string>															
+<string name="turn_off_data">Ausgeschalten Mobile Daten...</string>															
+<string name="status_wifi_off">Aktuelle Einstellung: WiFi ist aus.</string>															
+<string name="status_data_off">Aktuelle Einstellung: Mobile Daten ist aus.</string>															
+<string name="status_wifi_on">Aktuelle Einstellung: WiFi ist an.</string>															
+<string name="status_data_on">Aktuelle Einstellung: Mobile Daten ist an.</string>															
+<string name="device_is_locked">Gerät ist gesperrt...</string>
+<string name="device_unlocked">Gerät ist entsperrt...</string>															
+<string name="device_screen_on">Display ein...</string>															
+<string name="device_screen_off">Display aus...</string>															
+<string name="app_ins">Service aktiviert...</string>															
+<string name="app_oos">Service deaktiviert...</string>															
+<string name="start_timer">Timer starten ...</string>															
+<string name="stop_timer">Timer Stop...</string>															
+<string name="title_activity_settings">Einstellungen</string>															
+<string name="pref_title_turn_on_when">Auto WiFi/Daten Ein</string>															
+<string name="pref_title_show_notification">Benachrichtigung</string>															
+<string name="pref_title_turn_onoff_for">Auto Ein/Aus für</string>															
+<string name="pref_header_turn_off">Auto Aus WiFi/Daten</string>															
+<string name="pref_title_turn_off_latency">Ausschaltzeit für WiFi/Daten</string>															
+<string name="pref_header_general">Allgemein</string>															
+<string name="pref_description_show_notification">Benachrichtung in der Statusleiste anzeigen</string>															
+<string name="pref_header_turn_on">Einschalten WiFi/Daten</string>															
+<string name="off_when_default">Sofort</string>															
+<string name="on_when_default"> Display eingeschaltet</string>															
+<string name="for_default">Beide</string>
+    <string name="textOn">Service aktiviert</string>
+    <string name="textOff">Service deaktiviert</string>
+</resources>															

@@ -1,0 +1,47 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '21.1.1'
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 17
+        versionCode 21
+        versionName '1.5.2'
+    }
+    signingConfigs {
+        release {
+            storeFile file("/Users/vincentwu/AndroidStudioProjects/Resources/whueric.jks")
+            storePassword "woaimin"
+            keyAlias "whueric"
+            keyPassword "woaimin"
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    dexOptions {
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+}

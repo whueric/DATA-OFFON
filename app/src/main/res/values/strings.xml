@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WiFi/Data-Auto Off|On</string>
+    <string name="main_content">The easiest way to save data traffic and prolong battery life!\n\nScreen Off, WiFi/Data Off\nScreen On, WiFi/Data On\n\nNo Manual Switch Any More!\n</string>
+    <string name="title_activity_screen_observer">OffOnActivity</string>
+    <string name="contentDesc">WiFi/Data</string>
+    <string name="action_settings">Setting</string>
+    <string name="notification_content">Click to configure the app</string>
+    <string name="enable_service">Enable service</string>
+    <string name="enable_notification">Show notification</string>
+
+
+    <string name="turn_on_wifi">Turn on WiFi...</string>
+    <string name="turn_off_wifi">Turn off WiFi...</string>
+    <string name="turn_on_data">Turn on Mobile Data...</string>
+    <string name="turn_off_data">Turn off Mobile Data...</string>
+    <string name="status_wifi_off">Current setting: WiFi is Off.</string>
+    <string name="status_data_off">Current setting: Mobile Data is Off.</string>
+    <string name="status_wifi_on">Current setting: WiFi is On.</string>
+    <string name="status_data_on">Current setting: Mobile Data is On.</string>
+    <string name="device_is_locked">Device is locked...</string>
+    <string name="device_unlocked">Device is unlocked...</string>
+    <string name="device_screen_on">Device screen is on...</string>
+    <string name="device_screen_off">Device screen is off...</string>
+    <string name="app_ins">Service enabled...</string>
+    <string name="app_oos">Service disabled...</string>
+    <string name="start_timer">Start Turn-Off timer ...</string>
+    <string name="stop_timer">Stop Turn-Off timer...</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_title_turn_on_when">Auto Turn WiFi/Data On</string>
+    <string name="pref_title_show_notification">Show Notification</string>
+    <string name="pref_title_turn_onoff_for">Auto Turn On/Off for</string>
+    <string name="pref_header_turn_off">Turn Off WiFi/Data</string>
+    <string name="pref_title_turn_off_latency">The Latency to Turn WiFI/Data Off</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_description_show_notification">Show notification in status bar</string>
+    <string name="pref_header_turn_on">Turn On WiFi/Data</string>
+
+
+    <string name="off_when_default">Immediately</string>
+    <string name="on_when_default">When device screen is on</string>
+    <string name="for_default">Both</string>
+    <string name="textOn">Service Enabled</string>
+    <string name="textOff">Service Disabled</string>
+
+</resources>

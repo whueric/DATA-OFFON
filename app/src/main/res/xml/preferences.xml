@@ -1,0 +1,56 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title=" ">
+        <CheckBoxPreference
+            android:key="show_notification"
+            android:title="@string/pref_title_show_notification"
+            android:summary="@string/pref_description_show_notification"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    
+    <PreferenceCategory
+        android:title=" ">
+        <ListPreference
+            android:key="onoff_for"
+            android:title="@string/pref_title_turn_onoff_for"
+            android:entries="@array/pref_turn_onoff_for_list_titles"
+            android:entryValues="@array/pref_turn_onoff_for_list_values"
+            android:summary="@string/for_default"
+            android:dialogTitle="@string/pref_title_turn_onoff_for"
+            android:defaultValue="2"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title=" ">
+        <ListPreference
+            android:key="on_when"
+            android:title="@string/pref_title_turn_on_when"
+            android:entries="@array/pref_turn_on_when_list_titles"
+            android:entryValues="@array/pref_turn_on_when_list_values"
+            android:defaultValue="0"
+            android:summary="@string/on_when_default"
+            android:dialogTitle="@string/pref_title_turn_on_when"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title=" ">
+        <ListPreference
+            android:key="off_latency"
+            android:title="@string/pref_title_turn_off_latency"
+            android:entries="@array/pref_turn_off_latency_titles"
+            android:entryValues="@array/pref_turn_off_latency_values"
+            android:defaultValue="0"
+            android:summary="@string/off_when_default"
+            android:dialogTitle="@string/pref_title_turn_off_latency"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null" />
+    </PreferenceCategory>
+</PreferenceScreen>

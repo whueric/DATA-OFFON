@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WiFi/Data-自動開關</string>
+    <string name="main_content">***輕鬆省電省流量***\n\n屏幕關網絡關，屏幕開網絡開。 \n無需頻繁手動開關WiFi和行動數據網絡。\n</string>
+    <string name="title_activity_screen_observer">OffOnActivity</string>
+    <string name="contentDesc">WiFi/Data</string>
+    <string name="action_settings">设置</string>
+    <string name="notification_content">觸摸可設置本應用</string>
+    <string name="enable_service">啟用服務</string>
+    <string name="enable_notification">顯示通知</string>
+
+    <string name="turn_on_wifi">打開WiFi...</string>
+    <string name="turn_off_wifi">關閉WiFi...</string>
+    <string name="turn_on_data">打開行動數據...</string>
+    <string name="turn_off_data">關閉行動數據...</string>
+    <string name="status_wifi_off">當前狀態: WiFi已關閉.</string>
+    <string name="status_data_off">當前狀態: 行動數據已關閉.</string>
+    <string name="status_wifi_on">當前狀態: WiFi已打開.</string>
+    <string name="status_data_on">當前狀態: 行動數據已關閉.</string>
+    <string name="device_is_locked">設備已鎖定...</string>
+    <string name="device_unlocked">設備已解鎖...</string>
+    <string name="device_screen_on">設備屏幕已打開...</string>
+    <string name="device_screen_off">設備屏幕已關閉...</string>
+    <string name="app_ins">服務已啟用...</string>
+    <string name="app_oos">服務未啟用...</string>
+    <string name="start_timer">啟動網絡關閉定時器...</string>
+    <string name="stop_timer">取消網絡關閉定時器...</string>
+    <string name="title_activity_settings">設置</string>
+
+
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_show_notification">顯示通知</string>
+    <string name="pref_title_turn_onoff_for">自動打開/關閉</string>
+    <string name="pref_title_turn_on_when">自動打開WiFi/行動數據</string>
+    <string name="pref_title_turn_off_latency">屏幕關閉時延遲關閉WiFi/行動數據</string>
+    <string name="pref_header_turn_on">打開WiFi/行動數據</string>
+
+    <string name="pref_description_show_notification">在頂部狀態欄和通知下拉欄顯示應用圖標</string>
+    <string name="pref_header_turn_off">關閉WiFi/行動數據</string>
+
+    <string name="off_when_default">立即關閉</string>
+    <string name="on_when_default">當屏幕亮起時</string>
+    <string name="for_default">行動數據和WiFi網絡</string>
+    <string name="textOn">服務打開</string>
+    <string name="textOff">服務關閉</string>
+</resources>

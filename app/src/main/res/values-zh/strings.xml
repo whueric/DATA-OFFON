@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WiFi/Data-自动开关</string>
+    <string name="main_content">***轻松省电省流量***\n\n屏幕关网络关，屏幕开网络开。\n无需频繁手动开关WiFi和数据网络。\n</string>
+    <string name="title_activity_screen_observer">OffOnActivity</string>
+    <string name="contentDesc">WiFi/Data</string>
+    <string name="action_settings">设置</string>
+    <string name="notification_content">触摸可设置本应用</string>
+    <string name="enable_service">启用服务</string>
+    <string name="enable_notification">显示通知</string>
+
+    <string name="turn_on_wifi">打开WiFi...</string>
+    <string name="turn_off_wifi">关闭WiFi...</string>
+    <string name="turn_on_data">打开移动数据...</string>
+    <string name="turn_off_data">关闭移动数据...</string>
+    <string name="status_wifi_off">当前状态: WiFi已关闭.</string>
+    <string name="status_data_off">当前状态: 移动数据已关闭.</string>
+    <string name="status_wifi_on">当前状态: WiFi已打开.</string>
+    <string name="status_data_on">当前状态: 移动数据已关闭.</string>
+    <string name="device_is_locked">设备已锁定...</string>
+    <string name="device_unlocked">设备已解锁...</string>
+    <string name="device_screen_on">设备屏幕已打开...</string>
+    <string name="device_screen_off">设备屏幕已关闭...</string>
+    <string name="app_ins">服务已启用...</string>
+    <string name="app_oos">服务未启用...</string>
+    <string name="start_timer">启动网络关闭定时器...</string>
+    <string name="stop_timer">取消网络关闭定时器...</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="pref_header_general"></string>
+    <string name="pref_title_show_notification">显示通知</string>
+    <string name="pref_title_turn_onoff_for">自动打开和关闭</string>
+    <string name="pref_title_turn_on_when">自动打开WiFi/移动数据</string>
+    <string name="pref_title_turn_off_latency">屏幕关闭时延迟关闭WiFi/移动数据</string>
+
+    <string name="pref_description_show_notification">在顶部状态栏和通知下拉栏显示应用图标</string>
+    <string name="pref_header_turn_on">打开WiFi/移动数据</string>
+    <string name="pref_header_turn_off">关闭WiFi/移动数据</string>
+
+    <string name="off_when_default">立即关闭</string>
+    <string name="on_when_default">当屏幕亮起时</string>
+    <string name="for_default">移动数据和WiFi网络</string>
+    <string name="textOn">服务打开</string>
+    <string name="textOff">服务关闭</string>
+</resources>

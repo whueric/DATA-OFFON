@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>										
+<resources><string-array name="pref_turn_onoff_for_list_titles">										
+<item>Mobile Daten</item>										
+<item>WiFi</item>										
+<item>Beide</item>										
+</string-array>										
+<string-array name="pref_turn_onoff_for_list_values">										
+<item>0</item>										
+<item>1</item>										
+<item>2</item>										
+</string-array>										
+<string-array name="pref_turn_on_when_list_titles">										
+<item>Wenn das Display eingeschaltet wird </item>										
+<item>Wenn das Gerät entsperrt wird</item>										
+</string-array>										
+<string-array name="pref_turn_on_when_list_values">										
+<item>0</item>										
+<item>1</item>										
+</string-array>										
+<!-- Beispiel für Einstellungen Daten & Sync -->										
+<string-array name="pref_turn_off_latency_titles">										
+<item>Sofort</item>										
+<item>1 Minute</item>										
+<item>3 Minuten</item>										
+<item>5 Minuten</item>										
+<item>15 Minuten</item>										
+<item>30 Minuten</item>										
+</string-array>										
+<string-array name="pref_turn_off_latency_values">										
+<item>0</item>										
+<item>1</item>										
+<item>3</item>										
+<item>5</item>										
+<item>15</item>										
+<item>30</item>										
+</string-array>										
+</resources>										

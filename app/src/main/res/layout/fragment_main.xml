@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whueric.dataonoff.OffOnActivity"
+    android:background="@drawable/app_background"
+    android:padding="7dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView_logo"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/app"
+        android:scaleType="center"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="WiFI/Data Auto Off|On"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        style="@style/StatusText"
+        android:text="@string/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView_ad"
+        android:typeface="sans"
+        android:layout_below="@+id/imageView_logo"
+        android:textSize="14sp"/>
+
+    <TextView
+        style="@style/StatusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_status"
+        android:typeface="sans"
+        android:gravity="left"
+        android:layout_below="@+id/textView_ad"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/textView_ad"
+        android:layout_alignRight="@+id/textView_ad"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/black_overlay"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/switchEnable"
+        android:layout_marginBottom="10dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_service"
+        android:id="@+id/switchEnable"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView_status"
+        android:onClick="onSwitchClicked"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@id/textView_status"
+        android:textSize="18sp"/>
+
+
+</RelativeLayout>
